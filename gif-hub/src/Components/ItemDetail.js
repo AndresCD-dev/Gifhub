@@ -52,7 +52,7 @@ let {id} = useParams()
     useEffect(() => {
         setTimeout(() => fetchItem(), 300)
         // fetchItem()
-    }, [fetchItem])
+    }, [])
     const fetchItem = async () => {
         const fetchItem = await fetch(`https://api.giphy.com/v1/gifs/${id}?api_key=xjRmS04E6Syed3yZKqVZZ301OmqO5rvL`)
         const Item = await fetchItem.json(); 
