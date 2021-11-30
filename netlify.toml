@@ -1,7 +1,7 @@
 [build]
 base = "/gif-hub"
 publish = "/build"
-command = "npm start"
+command = "npm run build"
 
 [[redirects]]
 from = "/*"
