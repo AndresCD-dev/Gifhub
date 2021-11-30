@@ -87,7 +87,7 @@ function UploadGifs() {
         
           gif.map((gif) => 
         <ImageListItem className={classes.item}>
-           <img src={gif.secure_url} />
+           <img alt="prop" src={gif.secure_url} />
         </ImageListItem>  )
           
        )}
